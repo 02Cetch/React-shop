@@ -2,7 +2,7 @@
   "name": "react-16",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://02cetch.github.io/react_shop",
+  "homepage" : "https://02cetch.github.io/React-shop/",
   "dependencies": {
     "react": "16.1.0",
     "react-dom": "16.1.0",

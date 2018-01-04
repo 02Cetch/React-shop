@@ -1,0 +1,62 @@
+section.contact{
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+input{
+    width: 400px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: Arial, sans-serif;
+    font-size:18px;
+    font-weight: 300;    
+    color:rgb(0, 0, 0);
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+textarea{
+    font-family: Arial, sans-serif;
+    min-width: 400px;
+    min-height: 200px;
+    max-width: 600px;
+    max-height: 300px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+}
+input[type=submit] {
+    margin-top: 30px;
+    cursor:pointer;
+    background: rgb(47, 155, 56)
+}
+input[type=submit]:hover{
+    background: rgb(29, 94, 34)
+}
+@media screen and (max-width:1170px) {
+    section.contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:460px) {
+    input{
+        width: 100%;
+    }
+    textarea{
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+section.about{
+    width: 1170px;
+    margin: 0 auto;
+}
+div.img__wrapper{
+    margin: 0 auto;
+    width: 800px;
+    height: 420px;
+    transition: all .5s;
+    background: rgba(66, 66, 66, 0.8);
+    margin-bottom: 20px;
+}
+div.img__wrapper:hover{
+    transition: all 2s;
+    border-radius: 30px;
+}
+div.img{
+    width: 800px;
+    height: 420px;
+    transition: all .5s;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background:  rgb(46, 46, 46)/*url("../logo.jpg") no-repeat center top/cover; */ 
+}
+div.img:hover{
+    transition: all .5s;
+    border-radius: 30px;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1210px){
+    section.about{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    div.img__wrapper{
+        width: 100%;
+    }
+    div.img{
+        width: 100%;
+    }
+}

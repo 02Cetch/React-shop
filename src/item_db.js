@@ -17,7 +17,7 @@ const items = [
         id: 3,
         title: 'Футболка жёлт.',
         descr: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur a possimus delectus incidunt nemo earum, at deleniti et provident quaerat eaque, eos, porro placeat non. Quisquam reprehenderit voluptas magni?',
-        img: 'https://files.giftsoffer.ru/reviewer/thumbnails/1374.80_16_tif_1000x1000.jpg',
+        img: 'https://files.giftsoffer.ru/reviewer/thumbnails/11386301A_7.tif_1000x1000.jpg',
         price: 10
     },    
     {
